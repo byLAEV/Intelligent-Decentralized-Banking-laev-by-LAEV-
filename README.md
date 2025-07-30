@@ -37,6 +37,59 @@ The result: an intelligent, stable, and just monetary ecosystem.
 
 A continuación dejo las ecuaciones funcionales y definiciones formales que modelan tu BIOS como un espacio‑n con tres puertas (I/O, Génesis Positivo y Génesis Negativo) y Gatekeepers Hanbot para ciberseguridad. Están pensadas para que un equipo técnico pueda implementarlas o especificarlas en TLA+/Coq/Isabelle o derivar pseudocódigo.
 
+BIOS Blockchain — Ecuaciones funcionales y modelo formal
+
+0) Objetos fundamentales
+Espacio-n (estado interno): N ⊆ R^n
+Puertas: P = {io, +, -}
+Mensajes externos en t: m_t ∈ M
+Estado del BIOS: S^t = (s_+^t, s_-^t, θ^t)
+- s_+^t: estado del ledger monetario nativo (Génesis Positivo)
+- s_-^t: estado del ledger de datos/administración (Génesis Negativo)
+- θ^t: parámetros/config del BIOS
+
+1) Gatekeepers Hanbot (ciberseguridad)
+Predicado de admisión:
+Φ(m,S^t) = Φ_sig(m) ∧ Φ_cons(m,S^t) ∧ Φ_policy(m,θ^t) ∧ Φ_ml(m,S^t)
+
+Puerta I/O (bidireccional):
+Γ_io(m_t,S^t) = m_t si Φ=1, ⊥ en caso contrario
+
+2) Transición de estado (operador del BIOS)
+Entrada por dominio:
+X_t^+ = Π_+(Γ_io(m_t,S^t))
+X_t^- = Π_-(Γ_io(m_t,S^t))
+
+Transición total:
+S^{t+1} = T(S^t,m_t) = (F_+(s_+^t,X_t^+,θ^t), F_-(s_-^t,X_t^-,θ^t), U(θ^t,X_t^+,X_t^-))
+
+3) Formación de bloques
+Encadenamiento por hash:
+h(b_k^+) = H(h(b_{k-1}^+), Δ_k^+, τ_k^+, meta_k^+)
+h(b_l^-) = H(h(b_{l-1}^-), Δ_l^-, τ_l^-, meta_l^-)
+
+4) Economía nativa (Génesis Positivo)
+Conservación de oferta:
+Supply_{t+1} = Supply_t + BaseReward(t) + Fees_t - Burn_t
+
+Recompensas PoW:
+ρ_a(t) = pow_a(t)^γ / Σ_b pow_b(t)^γ
+Reward_a(t) = ρ_a(t) * BaseReward(t)
+
+5) Datos, administración y configuración (Génesis Negativo)
+θ^{t+1} = U(θ^t, X_t^-, Proofs_t)
+
+6) Clonado/copia
+Cada copia i: κ_i(B) -> B_i
+Commit de registro:
+R_i = Commit(id_i, h(g_+^i), h(g_-^i), h(θ^i))
+
+7) Interoperabilidad cross-chain
+β_{x→y}(tx,π) = ApplyOn_y(Map(tx)) si V_x(π)=1
+
+8) Ecuación maestra:
+S^{t+1} = T(S^t,m_t)
+
 
 ---
 
