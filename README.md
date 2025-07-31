@@ -1410,5 +1410,84 @@ Licencia
 Este sistema es propiedad intelectual de Banca Descentralizada Inteligente. Su implementación parcial o total requiere autorización expresa de la organización.
 
 
+Términos de Servicio – Herramienta de Rendimiento y Análisis de ASIC en YouPool
+
+
+---
+
+Introducción
+
+YouPool es una plataforma innovadora de minería descentralizada que integra múltiples algoritmos de extracción, ofreciendo herramientas propias diseñadas para optimizar la administración, control y rendimiento de ASICs conectados a la pool. Nuestro enfoque combina tecnología avanzada con un sistema de monitoreo interno que garantiza la calidad y eficiencia del aporte de potencia de cada equipo, promoviendo así un ecosistema transparente, justo y eficiente.
+
+
+---
+
+1. Definición y Objetivo
+
+La herramienta de rendimiento y análisis de ASIC (“la Herramienta”) es un servicio opcional provisto por YouPool para ayudar a los usuarios a monitorear y verificar el estado y rendimiento de sus equipos de minería (ASICs) conectados a la plataforma.
+
+Su objetivo es proporcionar información privada y técnica sobre el rendimiento del ASIC comparado con los parámetros y especificaciones públicas oficiales del fabricante, ayudando a identificar posibles desviaciones o anomalías.
+
+
+---
+
+2. Carácter Privado y Voluntario
+
+El uso de la Herramienta es totalmente voluntario y queda a discreción del usuario.
+
+La información recogida y analizada mediante la Herramienta es estrictamente privada y se comparte únicamente entre YouPool y el usuario propietario del ASIC.
+
+YouPool no divulgará ni compartirá los datos recopilados con terceros sin autorización expresa del usuario.
+
+
+
+---
+
+3. Alcance y Limitaciones
+
+La Herramienta realiza pruebas y análisis técnicos basados en datos disponibles vía firmware, protocolos estándar y especificaciones públicas.
+
+No garantiza un diagnóstico completo o definitivo del estado físico del ASIC ni reemplaza evaluaciones técnicas especializadas externas.
+
+Las alertas o informes generados por la Herramienta son indicativos y deben ser interpretados como soporte para la toma de decisiones del usuario.
+
+YouPool no se hace responsable por daños o pérdidas derivadas del uso o interpretación de la información proporcionada por la Herramienta.
+
+
+
+---
+
+4. Obligaciones y Responsabilidades del Usuario
+
+El usuario se compromete a proporcionar información verídica y actualizada sobre sus equipos cuando sea requerida para un análisis óptimo.
+
+El usuario reconoce que modificaciones externas (como firmware no oficial o hardware alterado) pueden afectar la precisión del análisis.
+
+En caso de detección de rendimiento anómalo, el usuario es responsable de tomar las acciones correctivas necesarias, según su criterio.
+
+
+
+---
+
+5. Derecho de Inspección y Sanciones por Incumplimiento
+
+YouPool se reserva el derecho de activar análisis puntuales o programados para verificar la operatividad y rendimiento de los ASICs conectados, siempre dentro del marco de respeto a la privacidad y con previo aviso.
+
+El uso inadecuado de la plataforma, la negativa a someterse a las inspecciones de calidad o no cumplir con las peticiones relacionadas con la verificación del ASIC podrán ser considerados incumplimientos graves.
+
+En tales casos, YouPool se reserva el derecho de restringir, suspender o cancelar las recompensas en moneda nativa u otros beneficios otorgados al usuario mientras persista el incumplimiento.
+
+Estas medidas buscan garantizar la excelencia operativa y la integridad del sistema, priorizando el aporte efectivo de potencia conforme a las especificaciones oficiales de los proveedores de ASIC.
+
+
+
+---
+
+6. Actualización de Términos
+
+YouPool puede actualizar estos Términos en función de cambios técnicos, regulatorios o de negocio.
+
+Los usuarios serán notificados de cualquier modificación relevante y podrán aceptar o rechazar dichos cambios.
+
 
 
