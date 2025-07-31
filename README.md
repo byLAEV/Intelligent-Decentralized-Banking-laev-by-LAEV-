@@ -1183,6 +1183,198 @@ Beneficios exclusivos para clientes que operen predominantemente con la moneda n
 
 
 
+README – Sistema de Extracción, Seguridad y Gobernanza de Monedas Nativas
+
+Proyecto: Banca Descentralizada Inteligente (BDI)
+Autor: Lerry Alexander Elizondo Villalobos (LAEV)
+
+
+---
+
+1. Descripción general
+
+El sistema de monedas nativas de la Banca Descentralizada Inteligente (BDI) ha sido diseñado para garantizar la transparencia, seguridad, auditabilidad y trazabilidad en todas las etapas del ciclo monetario: emisión, extracción, uso, bloqueo, desbloqueo y quema.
+Su propósito es establecer una estructura monetaria moderna, auditable, adaptable y jurídicamente respaldada, sin sacrificar flexibilidad operativa ni control económico descentralizado.
+
+
+---
+
+2. Emisión y auditoría
+
+Todas las emisiones de monedas nativas están identificadas con números únicos de auditoría, lo que permite rastrear cada unidad monetaria desde su creación.
+
+La emisión puede realizarse en distintas denominaciones (valores nominales), adaptables según necesidades de negocio, escalabilidad y funcionalidad operativa (ej. permitir transferencias con vuelto).
+
+Las emisiones son totalmente auditable por mecanismos internos y pueden ser verificadas por entes reguladores externos, promoviendo la confianza institucional.
+
+
+
+---
+
+3. Mecanismos de extracción (Prueba de Trabajo - PoW)
+
+3.1 PoW Computacional
+
+Permite la extracción de monedas mediante cómputo distribuido.
+
+Optimizado para resistir centralización y ser energéticamente eficiente.
+
+
+3.2 PoW Humano y Servicios Profesionales
+
+Permite extraer monedas mediante la prestación de servicios profesionales calificados (ej. trámites legales, soporte técnico, desarrollo).
+
+Ejemplo: un abogado acreditado por la BDI ejecuta una solicitud legal y recibe compensación en monedas nativas.
+
+La validación de estos servicios la realiza el soporte técnico descentralizado, que opera como una “oficina remota” del usuario y canaliza tareas hacia la blockchain administrativa negativa.
+
+
+
+---
+
+4. Bloqueo y desbloqueo de monedas
+
+4.1 Bloqueo preventivo
+
+Las monedas pueden ser bloqueadas temporalmente cuando existan indicios claros de delito, fraude, hackeo u otras irregularidades.
+
+Este bloqueo es una medida interna de seguridad inmediata, no implica pérdida ni destrucción del activo.
+
+La orden de bloqueo debe ser firmada digitalmente por el módulo de seguridad interna y validada por nodos del sistema.
+
+
+4.2 Desbloqueo
+
+Si la investigación demuestra que no hay causa válida para el bloqueo, las monedas pueden ser desbloqueadas tras una revisión administrativa.
+
+La oficina legal interna (tribunal descentralizado) emite la resolución.
+
+El desbloqueo debe ser inmediato y queda registrado en la blockchain administrativa negativa con trazabilidad total.
+
+
+
+---
+
+5. Quema o retiro definitivo de monedas
+
+Se ejecuta únicamente cuando se compruebe que las monedas están asociadas a:
+
+Actividades criminales (robo, estafa, fraude).
+
+Transacciones nulas o inválidas.
+
+
+El proceso incluye:
+
+1. Validación por la oficina legal interna.
+
+
+2. Revisión y participación de entes reguladores externos.
+
+
+
+Toda quema es irreversible, justificada en actas públicas hashadas y visible en la blockchain administrativa negativa.
+
+
+
+---
+
+6. Blockchain Administrativa Negativa
+
+Es una capa específica del sistema BDI para registrar operaciones de tipo excepcional y correctiva, tales como:
+
+Bloqueo y desbloqueo de fondos.
+
+Resoluciones legales internas.
+
+Procesos de quema o anulación de monedas.
+
+
+Actúa como respaldo histórico, fuente de verificación pública y componente de gobernanza automatizable.
+
+
+
+---
+
+7. Soporte técnico descentralizado
+
+Cada usuario cuenta con un canal de atención técnica personalizado, que opera como una oficina remota descentralizada.
+
+Este soporte se encarga de:
+
+Validar solicitudes técnicas.
+
+Canalizar requerimientos hacia la blockchain administrativa negativa.
+
+Interactuar con profesionales que prestan servicios mediante PoW humano.
+
+
+Esto refuerza la descentralización operativa del sistema.
+
+
+
+---
+
+8. Gobernanza y participación regulatoria
+
+La oficina legal interna actúa como tribunal descentralizado, encargado de resolver disputas, analizar bloqueos, y coordinar la quema de monedas.
+
+El proceso judicial es colaborativo, con participación opcional o necesaria de entes reguladores externos en decisiones de alto impacto.
+
+Se definen tiempos máximos de resolución, evitando bloqueos o casos abiertos de forma indefinida.
+
+Todo proceso genera un hash público verificable, garantizando transparencia y trazabilidad legal.
+
+
+
+---
+
+9. Automatización y seguridad
+
+Se proyecta la integración de inteligencia artificial autónoma y descentralizada para:
+
+Detección de patrones anómalos.
+
+Desencadenar bloqueos preventivos.
+
+Recomendar quema o desbloqueo con base en evidencia digital.
+
+
+Estos modelos operan como guardianes descentralizados que actúan bajo reglas consensuadas y verificables.
+
+
+
+---
+
+10. Política de denominaciones y fraccionamiento
+
+No se define una fracción mínima fija.
+
+El sistema evita establecer una unidad indivisible absoluta para preservar la flexibilidad futura.
+
+Por ejemplo, si la unidad más baja hoy equivale a 100 monedas, el sistema puede permitir fraccionarlas posteriormente en 0.1, 0.01, etc., sin alterar la arquitectura monetaria.
+
+
+Esto permite:
+
+Escalar sin rediseñar el sistema.
+
+Responder a inflación, cambios económicos o nuevas integraciones tecnológicas.
+
+Evitar límites estructurales que impidan subdivisión futura.
+
+
+
+
+---
+
+11. Conclusión
+
+Este sistema de monedas nativas combina resiliencia técnica, lógica descentralizada, fundamentos legales y un enfoque flexible que permite adaptarse a condiciones futuras sin comprometer la estabilidad estructural.
+Su diseño equilibra la innovación operativa con el cumplimiento regulatorio y la protección de los usuarios, manteniendo la soberanía económica de la comunidad sin ceder control a intereses centralizados.
+
+
+
 ---
 
 7. Flujo General de Pago
